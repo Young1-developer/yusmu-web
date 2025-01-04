@@ -1,0 +1,94 @@
+
+.auth-hero {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  
+  .auth-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
+  }
+  
+  .auth-tabs {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+  
+  .auth-tab {
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .auth-tab.active {
+    border-bottom: 3px solid var(--primary);
+    color: var(--primary);
+  }
+  
+  .auth-form {
+    padding: 2rem;
+  }
+  
+  .form-floating {
+    margin-bottom: 1rem;
+  }
+  
+  .social-login {
+    border-top: 1px solid #eee;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .social-btn {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    transition: all 0.3s ease;
+  }
+  
+  .social-btn:hover {
+    background: #f8f9fa;
+  }
+  
+  .social-btn i {
+    font-size: 1.2rem;
+  }
+  
+  .auth-features {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 15px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .feature-icon {
+    width: 40px;
+    height: 40px;
+    background: var(--primary);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }

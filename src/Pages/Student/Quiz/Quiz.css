@@ -1,0 +1,19 @@
+
+.quiz-container .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .quiz-container .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+  }
+  
+  .quiz-container .btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+  }
+  
+  .quiz-container .btn-primary:hover {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+  }

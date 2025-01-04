@@ -1,0 +1,184 @@
+:root {
+    --primary: #2563eb;
+    --secondary: #4f46e5;
+    --accent: #06b6d4;
+    --text: #1e293b;
+    --light: #f8fafc;
+    --ash:#6b7d8e;;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text);
+  }
+  
+  .hero-section {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    min-height: 80vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  .footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 4rem 0 2rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links a {
+    color: #a3a3a3;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  .social-links a {
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-links a:hover {
+    color: var(--accent);
+  }
+  
+  .feature-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .course-image {
+    background: #f8fafc;
+    overflow: hidden;
+  }
+
+  
+.course-filters .btn {
+  border-radius: 30px;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.course-filters .btn.active {
+  background-color: var(--primary);
+  color: white;
+}
+
+.course-card {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.course-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.course-price .text-decoration-line-through {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.section-title {
+  position: relative;
+  padding-bottom: 15px;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50px;
+  height: 3px;
+  background: var(--primary);
+}
+
+.courses-header {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  padding: 4rem 0;
+  color: white;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+.filter-sidebar {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.filter-group {
+  margin-bottom: 1.5rem;
+}
+
+.price-range {
+  display: flex;
+  gap: 1rem;
+}
+
+.search-box {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  padding-left: 2.5rem;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+.search-box i {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #94a3b8;
+}
+
+.skill-level label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.pagination {
+  margin-top: 2rem;
+}

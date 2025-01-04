@@ -1,0 +1,51 @@
+
+.course-card {
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .search-bar {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 50px;
+  }
+  
+  .btn-primary {
+    background: var(--primary);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+  }
+  
+  .btn-primary:hover {
+    background: var(--secondary);
+  }
+  
+  .stats-section {
+    background: var(--light);
+  }
+  
+  .stat-card {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  
+  .testimonial-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin: 1rem 0;
+  }
+  

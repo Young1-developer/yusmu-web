@@ -1,0 +1,119 @@
+
+.settings-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .settings-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .settings-nav {
+    background: white;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .settings-nav .nav-link {
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .settings-nav .nav-link.active {
+    background: var(--primary);
+    color: white;
+  }
+  
+  .profile-upload {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #f1f5f9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .profile-upload img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile-upload .upload-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .profile-upload:hover .upload-overlay {
+    opacity: 1;
+  }
+  
+  .form-switch {
+    padding-left: 3em;
+  }
+  
+  .form-switch .form-check-input {
+    width: 3em;
+  }
+  
+  @media (max-width: 768px) {
+    .settings-nav {
+      margin-bottom: 1rem;
+    }
+    
+    .settings-card {
+      padding: 1.5rem;
+    }
+  }
+  
+  .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1) !important;
+  }
+  
+  .progress {
+    background-color: #f1f5f9;
+  }
+  
+  .btn-outline-primary {
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+  }
+  
+  .badge {
+    padding: 0.5em 0.8em;
+    font-weight: 500;
+  }
+  
+  .dropdown-item i {
+    width: 20px;
+  }

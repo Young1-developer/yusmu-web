@@ -1,0 +1,15 @@
+
+.upload-area {
+    border: 2px dashed #bdc3c7;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .upload-area:hover {
+    border-color: #3498db;
+    background: #f7f9fc;
+  }
+  

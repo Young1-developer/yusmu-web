@@ -1,0 +1,73 @@
+.navbar {
+    background: #2c3e50;
+  }
+  
+  .nav-link {
+    color: #ecf0f1 !important;
+    transition: all 0.3s;
+    padding: 0.5rem 1rem !important;
+  }
+  
+  .nav-link:hover, .nav-link.active {
+    background: #34495e;
+    color: white !important;
+  }
+  
+  .main-content {
+    background: #f8f9fa;
+    min-height: 100vh;
+    padding-top: 60px;
+  }
+  
+  .card {
+    transition: transform 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .stats-card {
+    border-left: 4px solid;
+  }
+  
+  .stats-card.courses {
+    border-left-color: #2ecc71;
+  }
+  
+  .stats-card.students {
+    border-left-color: #3498db;
+  }
+  
+  .stats-card.quizzes {
+    border-left-color: #e74c3c;
+  }
+  
+  .upload-area {
+    border: 2px dashed #bdc3c7;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  
+  .upload-area:hover {
+    border-color: #3498db;
+    background: #f7f9fc;
+  }
+  
+  .profile-section {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
