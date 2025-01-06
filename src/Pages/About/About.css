@@ -6,7 +6,7 @@
   }
   
   .team-member {
-    transition: transform 0.3s ease;
+    transition: transform 0.4s ease;
   }
   
   .team-member:hover {
