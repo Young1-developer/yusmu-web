@@ -37,9 +37,9 @@ const StudentCourses = () => {
                 </button>
                 <ul className="dropdown-menu dropdown-menu-end">
                   <li><Link className="dropdown-item" to="https://example.com/course-details"><i className="fas fa-info-circle me-2"></i>Details</Link></li>
-                  <li><Link className="dropdown-item" to="https://example.com/course-materials"><i className="fas fa-book me-2"></i>Materials</Link></li>
                   <li><hr className="dropdown-divider" /></li>
-                  <li><Link className="dropdown-item text-danger" to="#"><i className="fas fa-times me-2"></i>Unenroll</Link></li>
+                  <li><Link className="dropdown-item" to="https://example.com/course-materials"><i className="fas fa-book me-2"></i>Materials</Link></li>
+                
                 </ul>
               </div>
             </div>
@@ -70,9 +70,9 @@ const StudentCourses = () => {
                 </button>
                 <ul className="dropdown-menu dropdown-menu-end">
                   <li><Link className="dropdown-item" to="https://example.com/course-details"><i className="fas fa-info-circle me-2"></i>Details</Link></li>
-                  <li><Link className="dropdown-item" to="https://example.com/course-materials"><i className="fas fa-book me-2"></i>Materials</Link></li>
                   <li><hr className="dropdown-divider" /></li>
-                  <li><Link className="dropdown-item text-danger" to="#"><i className="fas fa-times me-2"></i>Unenroll</Link></li>
+                  <li><Link className="dropdown-item" to="https://example.com/course-materials"><i className="fas fa-book me-2"></i>Materials</Link></li>
+                  
                 </ul>
               </div>
             </div>

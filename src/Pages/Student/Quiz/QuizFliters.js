@@ -1,6 +1,10 @@
 import React from 'react'
 
 const QuizFliters = () => {
+
+
+  // 1. write a function that will filter quizes
+  // 2. render them after filtered
   return (
     <div className="quiz-filters mt-4">
       <div className="d-flex flex-wrap gap-2 justify-content-between align-items-center">

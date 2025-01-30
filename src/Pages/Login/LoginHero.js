@@ -9,6 +9,12 @@ const LoginHero = () => {
     setActiveTab(tab);
   };
 
+
+
+  // 1. writting a state to get the data from the table
+  // 2. send them database
+  // 3. fecth request to get data and compare
+
   return (
     <div className="auth-hero">
       <div className="container">
@@ -21,13 +27,13 @@ const LoginHero = () => {
                   className={`auth-tab ${activeTab === 'login' ? 'active' : ''}`}
                   onClick={() => handleTabSwitch('login')}
                 >
-                  Returning Student
+                  Returning User
                 </div>
                 <div
                   className={`auth-tab ${activeTab === 'register' ? 'active' : ''}`}
                   onClick={() => handleTabSwitch('register')}
                 >
-                  New Student
+                  New User
                 </div>
               </div>
 

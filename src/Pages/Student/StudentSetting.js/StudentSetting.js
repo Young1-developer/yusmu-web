@@ -112,7 +112,7 @@ const StudentSetting = () => {
               </div>
               
               <div className="form-check form-switch mb-3">
-                <input className="form-check-input" type="checkbox" checked />
+                <input className="form-check-input" type="checkbox" />
                 <label className="form-check-label">Quiz Reminders</label>
               </div>
               

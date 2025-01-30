@@ -1,6 +1,9 @@
 import React from 'react'
 
 const StudentProfile = () => {
+
+  // 1. writing fetch request to get student infor(firstName,LastName ... etc)
+  // 2. render them after fetching
   return (
     
 <div className="container py-4">
@@ -18,7 +21,7 @@ const StudentProfile = () => {
             </div>
           </div>
           <div className="col-md-9">
-            <h3 className="mb-2">John Doe</h3>
+            <h3 className="mb-2">Usama Abdullahi</h3>
             <p className="text-muted mb-3">Student ID: YUS2023001</p>
             <div className="d-flex flex-wrap gap-3">
               <div className="badge bg-primary"><i className="fas fa-graduation-cap me-1"></i> Cyber Security</div>
@@ -112,43 +115,10 @@ const StudentProfile = () => {
       </div>
     </div>
 
-     {/* Recent Activity  */}
-    <div className="card border-0 shadow-sm">
-      <div className="card-body">
-        <h4 className="mb-4">Recent Activity</h4>
-        <div className="timeline">
-          <div className="activity-item d-flex align-items-start mb-3">
-            <div className="activity-content flex-grow-1">
-              <div className="d-flex justify-content-between align-items-center mb-1">
-                <strong>Completed JavaScript Fundamentals Quiz</strong>
-                <small className="text-muted">2 hours ago</small>
-              </div>
-              <p className="text-muted mb-0">Score: 92%</p>
-            </div>
-          </div>
-          <div className="activity-item d-flex align-items-start mb-3">
-            <div className="activity-content flex-grow-1">
-              <div className="d-flex justify-content-between align-items-center mb-1">
-                <strong>Submitted React Project</strong>
-                <small className="text-muted">Yesterday</small>
-              </div>
-              <p className="text-muted mb-0">Project: E-commerce Dashboard</p>
-            </div>
-          </div>
-          <div className="activity-item d-flex align-items-start">
-            <div className="activity-content flex-grow-1">
-              <div className="d-flex justify-content-between align-items-center mb-1">
-                <strong>Enrolled in New Course</strong>
-                <small className="text-muted">3 days ago</small>
-              </div>
-              <p className="text-muted mb-0">Course: Advanced React Development</p>
-            </div>
-          </div>
-        </div>
-      </div>
+    
     </div>
   </div>
-</div>
+
   )
 }
 

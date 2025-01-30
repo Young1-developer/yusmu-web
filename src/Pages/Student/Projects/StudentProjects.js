@@ -21,7 +21,7 @@ const StudentProjects = () => {
      <ProjectsCard />
 
 
-     {/* rest of the courses fetch by API here */}
+     {/* rest of the projects fetch by API here */}
 
 
       <div class="col-md-6 col-lg-4">

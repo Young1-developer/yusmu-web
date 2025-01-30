@@ -1,6 +1,9 @@
 import React from 'react'
 
 const UpcomingQuiz = () => {
+
+  // 1. making a fecth request to get quizs for a student
+  // 2. render them
   return (
     <div className="col-md-6 col-lg-4">
     <div className="card h-100 border-0 shadow-sm">

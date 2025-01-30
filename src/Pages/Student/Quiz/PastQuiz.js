@@ -1,6 +1,9 @@
 import React from 'react'
 
 const PastQuiz = () => {
+
+  // 1. write a fetch reques to get past for a single student
+  // 2. render them after fetching
   return (
     <div className="col-md-6 col-lg-4">
     <div className="card h-100 border-0 shadow-sm">
