@@ -9,10 +9,10 @@ const StudentLayout = () => {
 <nav className="navbar navbar-expand-lg  navbar-light bg-gradient">
   <div className="container">
     <img src={Logo} width ={100} height={100} alt='Logo' className="navbar-brand rounded-circle" />
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#studentNav">
       <span className="navbar-toggler-icon"></span>
     </button>
-    <div className="collapse navbar-collapse" id="navbarNav">
+    <div className="collapse navbar-collapse" id="studentNav">
       <ul className="navbar-nav me-auto">
         <li className="nav-item">
           <Link className="nav-link" to="/student">

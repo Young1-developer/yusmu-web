@@ -1,6 +1,8 @@
 import React from 'react'
+import SearchProject from './SearchProject'
 
-const ProjectsFilter = () => {
+
+const ProjectsFilter = ({searchText,handleInputChange}) => {
   return (
     <div class="projects-filters mt-4">
     <div class="d-flex flex-wrap gap-2 justify-content-between align-items-center">
@@ -18,12 +20,7 @@ const ProjectsFilter = () => {
         </select>
       </div>
       <div class="d-flex gap-2">
-        <div class="input-group">
-          <span class="input-group-text bg-white border-end-0">
-            <i class="fas fa-search text-muted"></i>
-          </span>
-          <input type="text" class="form-control border-start-0" placeholder="Search projects..." />
-        </div>
+       <SearchProject searchText={searchText} handleInputChange={handleInputChange} />
       </div>
     </div>
   </div>
